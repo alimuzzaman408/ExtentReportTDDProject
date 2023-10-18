@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-07T17:16:52 EDT" name="Suite" finished-at="2023-10-07T17:17:20 EDT" duration-ms="28813">
+    <groups>
+    </groups>
+    <test started-at="2023-10-07T17:16:52 EDT" name="Test1" finished-at="2023-10-07T17:16:59 EDT" duration-ms="7676">
+      <class name="automation_test.LoginTest">
+        <test-method is-config="true" signature="addThread()[pri:0, instance:automation_test.LoginTest@5454d35e]" started-at="2023-10-07T17:16:52 EDT" name="addThread" finished-at="2023-10-07T17:16:52 EDT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addThread -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation_test.LoginTest@5454d35e]" started-at="2023-10-07T17:16:52 EDT" name="openBrowser" finished-at="2023-10-07T17:16:54 EDT" duration-ms="2537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validloginTest()[pri:1, instance:automation_test.LoginTest@5454d35e]" started-at="2023-10-07T17:16:54 EDT" name="validloginTest" finished-at="2023-10-07T17:16:57 EDT" duration-ms="2552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validloginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation_test.LoginTest@5454d35e]" started-at="2023-10-07T17:16:57 EDT" name="closeBrowser" finished-at="2023-10-07T17:16:57 EDT" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation_test.LoginTest@5454d35e]" started-at="2023-10-07T17:16:57 EDT" name="openBrowser" finished-at="2023-10-07T17:16:58 EDT" duration-ms="1393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="invalidloginTest()[pri:2, instance:automation_test.LoginTest@5454d35e]" started-at="2023-10-07T17:16:58 EDT" name="invalidloginTest" finished-at="2023-10-07T17:16:59 EDT" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidloginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation_test.LoginTest@5454d35e]" started-at="2023-10-07T17:16:59 EDT" name="closeBrowser" finished-at="2023-10-07T17:16:59 EDT" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automation_test.LoginTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-10-07T17:16:59 EDT" name="Test2" finished-at="2023-10-07T17:17:10 EDT" duration-ms="10984">
+      <class name="automation_test.CustomerPageTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation_test.CustomerPageTest@5a3bc7ed]" started-at="2023-10-07T17:16:59 EDT" name="openBrowser" finished-at="2023-10-07T17:17:03 EDT" duration-ms="3602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="addThread()[pri:0, instance:automation_test.CustomerPageTest@5a3bc7ed]" started-at="2023-10-07T17:16:59 EDT" name="addThread" finished-at="2023-10-07T17:16:59 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addThread -->
+        <test-method signature="addingNewCustomer()[pri:0, instance:automation_test.CustomerPageTest@5a3bc7ed]" started-at="2023-10-07T17:17:03 EDT" name="addingNewCustomer" finished-at="2023-10-07T17:17:09 EDT" duration-ms="6389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingNewCustomer -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation_test.CustomerPageTest@5a3bc7ed]" started-at="2023-10-07T17:17:09 EDT" name="closeBrowser" finished-at="2023-10-07T17:17:10 EDT" duration-ms="992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automation_test.CustomerPageTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-10-07T17:17:10 EDT" name="Test3" finished-at="2023-10-07T17:17:20 EDT" duration-ms="10138">
+      <class name="automation_test.SearchCustomerTest">
+        <test-method is-config="true" signature="addThread()[pri:0, instance:automation_test.SearchCustomerTest@291f18]" started-at="2023-10-07T17:17:10 EDT" name="addThread" finished-at="2023-10-07T17:17:10 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addThread -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation_test.SearchCustomerTest@291f18]" started-at="2023-10-07T17:17:10 EDT" name="openBrowser" finished-at="2023-10-07T17:17:12 EDT" duration-ms="1723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="searchByEmail()[pri:0, instance:automation_test.SearchCustomerTest@291f18]" started-at="2023-10-07T17:17:12 EDT" name="searchByEmail" finished-at="2023-10-07T17:17:15 EDT" duration-ms="2983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByEmail -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation_test.SearchCustomerTest@291f18]" started-at="2023-10-07T17:17:15 EDT" name="closeBrowser" finished-at="2023-10-07T17:17:15 EDT" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation_test.SearchCustomerTest@291f18]" started-at="2023-10-07T17:17:15 EDT" name="openBrowser" finished-at="2023-10-07T17:17:17 EDT" duration-ms="1644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="searchByname()[pri:0, instance:automation_test.SearchCustomerTest@291f18]" started-at="2023-10-07T17:17:17 EDT" name="searchByname" finished-at="2023-10-07T17:17:20 EDT" duration-ms="3340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByname -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation_test.SearchCustomerTest@291f18]" started-at="2023-10-07T17:17:20 EDT" name="closeBrowser" finished-at="2023-10-07T17:17:20 EDT" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automation_test.SearchCustomerTest -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
